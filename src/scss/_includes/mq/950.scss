@@ -1,0 +1,98 @@
+#container {
+  margin: 0 auto;
+  font-family: 'Nunito', sans-serif;
+  &.fixed {
+    position: relative;
+    width: auto;
+  }
+}
+#card-big {
+  background: rgba(30,30,30,0.9);
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: auto;
+  transition: all .3s;
+  .card-big {
+    position: absolute;
+    z-index: 9997;
+    top: 20px;
+    left: 50%;
+    width: 920px;
+    height: auto;
+    margin-left: -460px;
+    background: #f4f4f4;
+    background-position: fixed;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  .inner {
+    padding: 40px 50px;
+  }
+  .image-holder {
+    max-width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  }
+  img {
+    max-width: 100%;
+  }
+  .close {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  .prev {
+    top: 40%;
+    color: #fff;
+    font-size: 3rem;
+    left: 1%;
+  }
+  .next {
+    top: 40%;
+    color: #fff;
+    font-size: 3rem;
+    right: 1%;
+  }
+  .tools {
+    border-top: 1px solid #ccc;
+    padding: 10px 0 0 0;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .view {
+    cursor: pointer;
+    background: $green;
+    text-transform: uppercase;
+    padding: 7px 16px 5px;
+    border-radius: 25px;
+    margin: 20px 0 0 0;
+    border: 0;
+    color: white;
+    transition: all .3s;
+    &:hover {
+      background: lighten($green, 10%);
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .instructions {
+    font-size: 0.7rem;
+    color: black;
+    span {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      padding: 2px 4px 1px 4px;
+      background: #666;
+      border-radius: 2px;
+      margin: 0 5px 0 0;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+#card-big {
+  background: rgba(30,30,30,0.9);
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  transition: all .3s;
+  .card-big {
+    position: absolute;
+    z-index: 9997;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    background: #f4f4f4;
+    background-position: fixed;
+    border-radius: 0;
+    margin-bottom: 0;
+    overflow: auto;
+  }
+  .inner {
+    padding: 20px 20px;
+  }
+  .image-holder {
+    max-width: 100%;
+    // padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  }
+  img {
+    max-width: 100%;
+  }
+  .close {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    opacity: .5;
+    z-index: 9998;
+    color: #333;
+    font-size: 1.8rem;
+    background: none;
+    border: 0;
+  }
+  .prev {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    opacity: .5;
+    z-index: 9998;
+    color: #000;
+    font-size: 1.8rem;
+  }
+  .next {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    opacity: .5;
+    z-index: 9998;
+    color: #000;
+    font-size: 1.8rem;
+  }
+  .tools {
+    border-top: 1px solid #ccc;
+    padding: 10px 0 0 0;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .view {
+    cursor: pointer;
+    background: $green;
+    text-transform: uppercase;
+    padding: 7px 16px 5px;
+    border-radius: 25px;
+    margin: 20px 0 0 0;
+    border: 0;
+    color: white;
+    transition: all .3s;
+    &:hover {
+      background: lighten($green, 10%);
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .instructions {
+    font-size: 0.7rem;
+    color: black;
+    display: inline-block;
+    margin-left: 10px;
+    span {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      padding: 2px 4px 1px 4px;
+      background: #666;
+      border-radius: 2px;
+      margin: 0 5px 0 0;
+      color: white;
+    }
+  }
+}

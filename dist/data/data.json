@@ -1,0 +1,202 @@
+{
+  "about": [
+    {
+      "title": "About Me",
+      "text": "I am a web developer, yet I got my start in the design field. I went to school for graphic design,and worked in the print design industry for many years before moving over to web design and development. After many years of balancing design and development, I made a change to being a full time developer. My passion for great design makes me unique in creating pixel perfect code for web and mobile platforms.",
+      "image": "me.jpg"
+    }
+  ],
+  "dev": [
+    {
+      "topTitle": "My Work",
+      "section": "Development",
+      "title": "The Brooks Group",
+      "view": "View App",
+      "instructions": "Select welcome, then use your keyboard left/right arrows to quickly navigate",
+      "text": "The Brooks Group is a client that requested an in depth e-learning program based on their sales model. Working closely with an Instructional designer and media artist, I developed a series of nine interactive modules, each with its own unique learning interactions that were complex in nature, yet simple for the end user to resolve.",
+      "image": "dev/tbg.jpg",
+      "bottomTitle": "The Brooks Group",
+      "tools": "Vue JS / Vuex / Webpack / Javascript / HTML / SCSS / JSON / RESTful API / Google Sheets",
+      "id": "1",
+      "link": "links/tbg/index.html?debug=true"
+    },
+    {
+      "title": "AutoDesk",
+      "view": "View App",
+      "instructions": "Open app, then use your keyboard left/right arrows to quickly navigate",
+      "text": "AutoDesk is a software company that needed some training based around data security. I took insight from our team and created a fun learning module based on a series of different training models.",
+      "image": "dev/autodesk.jpg",
+      "bottomTitle": "AutoDesk",
+      "tools": "Vue JS / Vuex / Webpack / Javascript / HTML / SCSS / JSON / RESTful API / Google Sheets",
+      "id": "2",
+      "link": "links/autodesk/index.html?debug=true"
+    },
+    {
+      "title": "Meijer",
+      "view": "View App",
+      "instructions": "Open app, then use your keyboard left/right arrows to quickly navigate",
+      "text": "Meijer is a national grocer and recurring client who needed training for employees on their internal software systems. I developed a series of modules focused around software 'simulation' training.",
+      "image": "dev/meijer.jpg",
+      "bottomTitle": "Meijer",
+      "tools": "Vue JS / Vuex / Webpack / Javascript / HTML / SCSS / JSON / RESTful API / Google Sheets",
+      "id": "3",
+      "link": "links/meijer/index.html?debug=true"
+    },
+    {
+      "title": "Timken",
+      "view": "View App",
+      "text": "Timken is a global leader in the bearing & power transmission industry. We partnered with Timken to provide sales training on multiple products in their line. This is one of eight courses in the first group that I created, group 2 consisted of 9 courses, with a total of 6 groups altogether.",
+      "image": "dev/timken.jpg",
+      "bottomTitle": "Timken",
+      "tools": "Vue JS / Javascript / jQuery / HTML / SCSS / JSON / Gulp / Bootstrap / Google Sheets",
+      "id": "4",
+      "link": "links/timken/index.html"
+    },
+    {
+      "title": "Unidos",
+      "view": "View App",
+      "text": "Unidos is financial institution that was in need of a web app for certain services such as bill pay, money transfer, etc. I created a series of pages, based of designs, to fulfill those functionality needs. This is one of many pages I created to fullfil their web and mobile needs.",
+      "image": "dev/unidos.jpg",
+      "bottomTitle": "Unidos",
+      "tools": "Javascript / jQuery / HTML / SCSS / Foundation",
+      "id": "5",
+      "link": "links/unidos/consumer/customer/customer-dashboard.html"
+    },
+    {
+      "title": "Job Rivet",
+      "view": "View App",
+      "text": "Job Rivet was a recurring client that would come back from time to time requesting new pages to add to their website. This is one of many of those fully responsive pages.",
+      "image": "dev/job-rivet.jpg",
+      "bottomTitle": "Job Rivet",
+      "tools": "HTML / SCSS / Foundation",
+      "id": "6",
+      "link": "links/jobrivet/paywall-employer.html"
+    },
+    {
+      "title": "Michelin",
+      "view": "View App",
+      "text": "Michelin was a recurring client who was constantly requesing product training. This is the start of a template for a Motorcycle course.",
+      "image": "dev/michelin.jpg",
+      "bottomTitle": "Michelin",
+      "tools": "Javascript / jQuery / HTML / SCSS / Foundation",
+      "id": "7",
+      "link": "links/michelin/index.html"
+    },
+    {
+      "title": "AutoNation",
+      "view": "View App",
+      "text": "AutoNation requested a series of training for their Sales Managers. This is one in a series of fully responsive courses I developed.",
+      "image": "dev/autonation.jpg",
+      "bottomTitle": "AutoNation",
+      "tools": "Javascript / jQuery / HTML / SCSS / Foundation",
+      "id": "8",
+      "link": "links/autonation/index.html"
+    }
+  ],
+  "design": [
+    {
+      "topTitle": "My Work",
+      "section": "Design",
+      "title": "TRW",
+      "text": "TRW (Two Redheads and a Wolf) is a logo I designed for some friends to use for their business products.",
+      "image": "design/TRW.png",
+      "bottomTitle": "TRW",
+      "id": "1"
+    },
+    {
+      "title": "Ashton Estate",
+      "instructions": "",
+      "text": "This is a logo I created for some friends for their small sustainable farm.",
+      "image": "design/ashton-estate.png",
+      "bottomTitle": "Aston Estate",
+      "id": "2"
+    },
+    {
+      "title": "On the Road Wellness",
+      "text": "This is a logo I designed for a client that helps over the road truckers with meal planning, exercise and overall wellness.",
+      "image": "design/otr-wellness.png",
+      "bottomTitle": "On the Road Wellness",
+      "id": "3"
+    }
+  ],
+  "misc": [
+    {
+      "topTitle": "My Work",
+      "section": "Miscellaneous",
+      "title": "Lincoln",
+      "text": "A graphite portrait of one of my favorite presidents.",
+      "image": "misc/abe.jpg",
+      "bottomTitle": "Lincoln",
+      "id": "1"
+    },
+    {
+      "title": "Einstein",
+      "text": "A graphite portrait of a man much smarter than myself.",
+      "image": "misc/einstein.jpg",
+      "bottomTitle": "Einstein",
+      "id": "2"
+    },
+    {
+      "title": "Sitting Bull",
+      "text": "A graphite portrait of a great leader.",
+      "image": "misc/sitting.jpg",
+      "bottomTitle": "Sitting Bull",
+      "id": "3"
+    },
+    {
+      "title": "Barn",
+      "text": "Oil on canvas measuring 4' x 3'.",
+      "image": "misc/barn.jpg",
+      "bottomTitle": "Barn",
+      "id": "4"
+    },
+    {
+      "title": "Wife",
+      "text": "Acrylic on canvas portrait of my wife.",
+      "image": "misc/alison.jpg",
+      "bottomTitle": "Wife",
+      "id": "5"
+    },
+    {
+      "title": "Myself",
+      "text": "Acrylic on canvas portrait.",
+      "image": "misc/me.jpg",
+      "bottomTitle": "Myself",
+      "id": "6"
+    },
+    {
+      "title": "Son",
+      "text": "Acrylic on canvas portrait of my first born son.",
+      "image": "misc/xavi.jpg",
+      "bottomTitle": "Son",
+      "id": "7"
+    },
+    {
+      "title": "Lamp 1",
+      "text": "The first steampunk style lamp I made.",
+      "image": "misc/lamp-1.jpg",
+      "bottomTitle": "Lamp 1",
+      "id": "8"
+    },
+    {
+      "title": "Lamp 2",
+      "text": "My second attempt at a steampunk style lamp.",
+      "image": "misc/lamp-2.jpg",
+      "bottomTitle": "Lamp 2",
+      "id": "9"
+    },
+    {
+      "title": "Lamp 3",
+      "text": "A steampunk style lamp I made and gave to my in-laws.",
+      "image": "misc/lamp-3.jpg",
+      "bottomTitle": "Lamp 3",
+      "id": "10"
+    }
+  ],
+  "contact": [
+    {
+      "title": "Contact",
+      "text": "careymarkthomas@gmail.com"
+    }
+  ]
+}

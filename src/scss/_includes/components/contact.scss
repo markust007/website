@@ -1,0 +1,24 @@
+#contact {
+  width: auto;
+  margin: 0;
+  padding: 20px 0 40px;
+  border-top: 1px solid #e5e5e5;
+  background: white;
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  .inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 25px;
+    h4 {
+      text-transform: uppercase;
+    }
+    p {
+    }
+    a {
+      text-decoration: none;
+      color: $green;
+    }
+  }
+}

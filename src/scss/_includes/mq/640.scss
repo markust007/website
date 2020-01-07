@@ -1,0 +1,12 @@
+.card-outer {
+  width: calc(100% / 3 - 30px);
+  margin: 0 15px 30px 15px;
+  .card {
+    * {
+
+    }
+    .image-holder {
+      max-height: 105px;
+    }
+  }
+}
