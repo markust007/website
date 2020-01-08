@@ -3,6 +3,7 @@
     <navi :items="items"></navi>
     <about :items="items.about[0]"></about>
     <div class="dev-top"><h4 class="title">{{items.dev[0].topTitle}}</h4></div>
+    <div class="c_lib"><button @click="openComponentLibrary()">View Component Library<i class="fa fa-angle-double-right" aria-hidden="true"></i></button></div>
     <dev :items="items"></dev>
     <design :items="items"></design>
     <misc :items="items"></misc>
@@ -52,6 +53,9 @@ export default {
     },
     close() {
       this.open = false
+    },
+    openComponentLibrary() {
+      window.location.href = window.location.href + 'components'
     }
   },
   mounted() {
@@ -69,5 +73,5 @@ export default {
 </script>
 
 <style scoped>
-
+    
 </style>

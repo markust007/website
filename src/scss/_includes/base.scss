@@ -46,6 +46,20 @@ html, body {
     top: auto;
   }
 }
+.c_lib {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.c_lib button {
+    background: #FF6600;
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
+    padding: 4px 10px;
+}
+.c_lib button i {
+    margin-left: 8px;
+}
 
 /*================================================
               BOILERPLATE
