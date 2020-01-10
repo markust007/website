@@ -1,49 +1,22 @@
 <template>
-  <div id="main">
-    <container></container>
-  </div>
+  <v-app>
+    <v-content>
+        <router-view></router-view>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-/////////////////////VARIABLES & IMPORTS////////////////////
-//////////////////////////////////////////////////////////
-import store from './store'
-import router from './router'
-import container from './containers/Container.vue'
-
-import {polyfill} from "mobile-drag-drop";
-import {scrollBehaviourDragImageTranslateOverride} from "mobile-drag-drop/scroll-behaviour";
-
-polyfill({
-    // use this to make use of the scroll behaviour
-    dragImageTranslateOverride: scrollBehaviourDragImageTranslateOverride
-});
-
 
 export default {
-  name: 'app',
-  store,
-  router,
-  data () {
-    return {
-    }
-  },
-  computed: {
+  name: 'App',
 
-  },
-  methods: {
-
-
-  },
-  mounted() {
-
-  },
   components: {
-    container
-  }
-}
+
+  },
+
+  data: () => ({
+    //
+  }),
+};
 </script>
-
-<style scoped>
-
-</style>

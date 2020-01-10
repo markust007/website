@@ -1,8 +1,16 @@
+import './scss/styles.scss';
+
 import Vue from 'vue'
 import App from './App.vue'
-require('./scss/styles.scss')
+import router from './router/index'
+import store from './store/index'
+import vuetify from './plugins/vuetify';
+
+Vue.config.productionTip = false
 
 new Vue({
-  el: '#app',
+  router,
+  store,
+  vuetify,
   render: h => h(App)
-})
+}).$mount('#app')
