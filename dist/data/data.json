@@ -42,6 +42,17 @@
       "link": "links/autodesk/index.html?debug=true"
     },
     {
+      "title": "Manhattan & Associates",
+      "view": "View App",
+      "instructions": "Open app, then use your keyboard left/right arrows to quickly navigate, go to the \"Instructions\" page of the Supply Chain Game for the best interaction",
+      "text": "Manhattan & Associates asked us to convert 30+ Flash built modules into HTML5 modules. This is one of many I built, with the Supply Chain Game being one of the most interactive activities in all the modules.",
+      "image": "dev/manhattan.jpg",
+      "bottomTitle": "Manhattan & Associates",
+      "tools": "Vue JS / Vuex / Webpack / Javascript / HTML / SCSS / JSON / RESTful API",
+      "id": "4",
+      "link": "links/manhattan/index.html?debug=true"
+    },
+    {
       "title": "Meijer",
       "view": "View App",
       "instructions": "Open app, then use your keyboard left/right arrows to quickly navigate",
@@ -49,7 +60,7 @@
       "image": "dev/meijer.jpg",
       "bottomTitle": "Meijer",
       "tools": "Vue JS / Vuex / Webpack / Javascript / HTML / SCSS / JSON / RESTful API / Google Sheets",
-      "id": "4",
+      "id": "5",
       "link": "links/meijer/index.html?debug=true"
     },
     {
@@ -59,7 +70,7 @@
       "image": "dev/timken.jpg",
       "bottomTitle": "Timken",
       "tools": "Vue JS / Javascript / jQuery / HTML / SCSS / JSON / Gulp / Bootstrap / Google Sheets",
-      "id": "5",
+      "id": "6",
       "link": "links/timken/index.html"
     },
     {
@@ -69,7 +80,7 @@
       "image": "dev/unidos.jpg",
       "bottomTitle": "Unidos",
       "tools": "Javascript / jQuery / HTML / SCSS / Foundation",
-      "id": "6",
+      "id": "7",
       "link": "links/unidos/consumer/customer/customer-dashboard.html"
     },
     {
@@ -79,7 +90,7 @@
       "image": "dev/job-rivet.jpg",
       "bottomTitle": "Job Rivet",
       "tools": "HTML / SCSS / Foundation",
-      "id": "7",
+      "id": "8",
       "link": "links/jobrivet/paywall-employer.html"
     },
     {
@@ -89,7 +100,7 @@
       "image": "dev/michelin.jpg",
       "bottomTitle": "Michelin",
       "tools": "Javascript / jQuery / HTML / SCSS / Foundation",
-      "id": "8",
+      "id": "9",
       "link": "links/michelin/index.html"
     },
     {
@@ -99,7 +110,7 @@
       "image": "dev/autonation.jpg",
       "bottomTitle": "AutoNation",
       "tools": "Javascript / jQuery / HTML / SCSS / Foundation",
-      "id": "9",
+      "id": "10",
       "link": "links/autonation/index.html"
     }
   ],
