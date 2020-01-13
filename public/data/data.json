@@ -21,6 +21,16 @@
       "link": "links/tbg/index.html?debug=true"
     },
     {
+      "title": "Vue Phaser Demo",
+      "view": "View Demo",
+      "text": "This is a simple demo I made using Vue.js and Phaser frameworks, and utilizing Google Firebase on the backend.",
+      "image": "dev/phaser-demo.jpg",
+      "bottomTitle": "Vue Phaser Demo",
+      "tools": "Firebase / Vue JS / Vuex / Webpack / Javascript / HTML / SCSS / JSON / RESTful API",
+      "id": "2",
+      "link": "https://phaser-demo-leaderboard.web.app/"
+    },
+    {
       "title": "AutoDesk",
       "view": "View App",
       "instructions": "Open app, then use your keyboard left/right arrows to quickly navigate",
@@ -28,7 +38,7 @@
       "image": "dev/autodesk.jpg",
       "bottomTitle": "AutoDesk",
       "tools": "Vue JS / Vuex / Webpack / Javascript / HTML / SCSS / JSON / RESTful API / Google Sheets",
-      "id": "2",
+      "id": "3",
       "link": "links/autodesk/index.html?debug=true"
     },
     {
@@ -39,7 +49,7 @@
       "image": "dev/meijer.jpg",
       "bottomTitle": "Meijer",
       "tools": "Vue JS / Vuex / Webpack / Javascript / HTML / SCSS / JSON / RESTful API / Google Sheets",
-      "id": "3",
+      "id": "4",
       "link": "links/meijer/index.html?debug=true"
     },
     {
@@ -49,7 +59,7 @@
       "image": "dev/timken.jpg",
       "bottomTitle": "Timken",
       "tools": "Vue JS / Javascript / jQuery / HTML / SCSS / JSON / Gulp / Bootstrap / Google Sheets",
-      "id": "4",
+      "id": "5",
       "link": "links/timken/index.html"
     },
     {
@@ -59,7 +69,7 @@
       "image": "dev/unidos.jpg",
       "bottomTitle": "Unidos",
       "tools": "Javascript / jQuery / HTML / SCSS / Foundation",
-      "id": "5",
+      "id": "6",
       "link": "links/unidos/consumer/customer/customer-dashboard.html"
     },
     {
@@ -69,7 +79,7 @@
       "image": "dev/job-rivet.jpg",
       "bottomTitle": "Job Rivet",
       "tools": "HTML / SCSS / Foundation",
-      "id": "6",
+      "id": "7",
       "link": "links/jobrivet/paywall-employer.html"
     },
     {
@@ -79,7 +89,7 @@
       "image": "dev/michelin.jpg",
       "bottomTitle": "Michelin",
       "tools": "Javascript / jQuery / HTML / SCSS / Foundation",
-      "id": "7",
+      "id": "8",
       "link": "links/michelin/index.html"
     },
     {
@@ -89,7 +99,7 @@
       "image": "dev/autonation.jpg",
       "bottomTitle": "AutoNation",
       "tools": "Javascript / jQuery / HTML / SCSS / Foundation",
-      "id": "8",
+      "id": "9",
       "link": "links/autonation/index.html"
     }
   ],
